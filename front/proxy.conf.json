@@ -1,0 +1,13 @@
+
+{
+    "/posts*": {
+        "target": "https://test-api-met.herokuapp.com",
+        "secure": false,
+        "pathRewrite": {
+            "^/posts": ""
+        },
+        "changeOrigin": true
+    }
+}
+
+
